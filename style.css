@@ -1,12 +1,33 @@
 h1 {
     text-align: center;
     color: darkmagenta;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5em;
+    text-shadow: white 5px 0 1px;
 }
 body {
     text-align: center;
     font-family: Verdana, sans-serif;
     background: lightgray;
 }
-.global {
-    margin: 20%;
+#global {
+    margin: 5%;
+}
+#contenue {
+    background: white;
+    border: solid 2px white;
+    border-radius: 50%;
+    height: 200px;
+    padding: 15px;
+}
+#rejouer {
+    width: 200px;
+    padding: 10px;
+    border-radius: 1px;
+    font-size: 20px;
+    background: white;
+    color: darkmagenta;
+}
+#rep {
+    margin-top: 20px;
 }
