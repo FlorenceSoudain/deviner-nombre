@@ -7,14 +7,19 @@
 </head>
 <body>
     <div id="global">
+        <h1>Devinez le chiffre</h1>
+        <p>Choisissez un chiffre entre 1 et 100. Vous avez dix essais pour trouver le bon chiffre.</p>
         <div>
-            <form>
-                <label for="proposition">Tapez un nombre entre 1 et 100</label>
-                <input id="proposition" type="text">
-                <button id="envoie">Envoyez</button>
-            </form>
+            <label for="proposition">Tapez un nombre entre 1 et 100</label>
+            <input id="proposition" type="text">
+            <button id="envoie">Envoyez</button>
         </div>
+        <br>
+        <div id="rep"></div>
+        <br>
         <div id="reste"></div>
+        <br>
+        <button id="rejouer">Rejouez</button>
     </div>
 <script type="text/javascript" src="script.js"></script>
 </body>

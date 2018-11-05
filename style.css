@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    color: darkmagenta;
+}
+body {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    background: lightgray;
+}
+.global {
+    margin: 20%;
+}
